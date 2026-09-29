@@ -16,8 +16,6 @@ import {
   Pull,
   Media,
 } from "@/components/task/Bits";
-import CodeDrawer from "@/components/CodeDrawer";
-import CodeFlowDrawer from "@/components/CodeFlowDrawer";
 import ScreenshotCarousel from "@/components/task/ScreenshotCarousel";
 import { ArrowLeft } from "@/components/icons";
 
@@ -61,7 +59,6 @@ export default async function TaskPage({ params }: PageProps) {
   const hero = taskImages[task.taskId];
   const heroList = Array.isArray(hero) ? hero : hero ? [hero] : [];
   const shots = taskScreenshots[task.taskId] ?? [];
-  const codeItems = task.codeExample ?? [];
 
   /* Sections are built in the exact order requested, so the ToC and body
      always agree, and a sparse task simply produces fewer of them. */
@@ -292,13 +289,6 @@ export default async function TaskPage({ params }: PageProps) {
 
         <ScreenshotCarousel shots={shots} title={task.title} />
       </div>
-
-      {/* Pipeline-style tasks (`codeInline: true`) render the same code content
-          as one long scroll inside the side drawer — no tab rail, everything
-          in order. Every other task keeps the tabbed CodeDrawer. */}
-      {task.codeInline
-        ? <CodeFlowDrawer items={codeItems} />
-        : <CodeDrawer items={codeItems} />}
     </main>
   );
 }

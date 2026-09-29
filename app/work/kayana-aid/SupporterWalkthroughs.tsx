@@ -7,7 +7,7 @@ const ITEMS = [
     stepLabel: "Steps 1–5 : Fundraiser Flow",
     sub: "Fundraiser Flow",
     desc: "Pick campaign, create page, set impact levels, share, track progress",
-    src: "/work/kayana-aid/walkthroughs/fundraiser-flow.mov",
+    src: "/api/drive-video?id=1PlUnMFwReMyym8gjTCo2NW1JT9CABWK3",
     cover: "Steps 1–5",
     type: "video" as const,
   },

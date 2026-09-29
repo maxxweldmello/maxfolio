@@ -7,7 +7,7 @@ const ITEMS = [
     stepLabel: "Steps 1–6 : Donor Flow",
     sub: "Donor Flow",
     desc: "Discover, choose amount, fill details, Gift Aid & pay, receipt, donor account",
-    src: "/work/kayana-aid/walkthroughs/donor-flow.mov",
+    src: "/api/drive-video?id=1c4WzKEZ8-eonUZripmvh-sg9lNYfw7p_",
     cover: "Steps 1–6",
     type: "video" as const,
   },

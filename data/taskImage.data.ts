@@ -17,18 +17,18 @@
 export const taskImages: Record<string, string | string[]> = {
   // ── Kayana Admin ──
   "task-audit":                   "/tasks/audit/cover.png",
-  "task-auth-session":            "/tasks/auth-session/cover.mov",
-  "task-menus":                   "/tasks/menus/cover.mov",
-  "task-property-onboarding":     "/tasks/property-onboarding/cover.mov",
-  "task-compliance":              "/tasks/compliance/cover.mov",
+  "task-auth-session":            "/api/drive-video?id=11RQqVyA__WgJUJ8gsaTED8iVzkIkcDU0#.mov",
+  "task-menus":                   "/api/drive-video?id=1vQOGf12n_xD-A2tdzTByH_QmLvy53AZB#.mov",
+  "task-property-onboarding":     "/api/drive-video?id=1FjDR5X9ppYEDU2rK_BeS2UqfAtEC7SE6#.mov",
+  "task-compliance":              "/api/drive-video?id=1yPgSA8LGa-OTFevNBgVrYupVY1djozcv#.mov",
   "task-stripe-terminal":         "",
-  "task-stripe-payout-schedule":  "/tasks/stripe-payout-schedule/cover.mov",
-  "task-stripe-instant-payout":   ["/tasks/stripe-instant-payout/cover-1.mov", "/tasks/stripe-instant-payout/cover-2.mov"],
-  "task-payment-fee":             "/tasks/payment-fee/cover.mov",
-  "task-card-mapping":            "/tasks/card-mapping/cover.mov",
-  "task-knowledge-base":          "/tasks/knowledge-base/cover.mov",
-  "task-transfer-funds":          "/tasks/transfer-funds/cover.mov",
-  "task-selective-notifications": "/tasks/selective-notifications/cover.mov",
+  "task-stripe-payout-schedule":  "/api/drive-video?id=1wJvDLGcvh_7pcDVBOx1_y3seAPrmqakW#.mov",
+  "task-stripe-instant-payout":   ["/api/drive-video?id=1-lvktE-TPGqsoYYMHVMeZbIJJdYj7afQ#.mov", "/api/drive-video?id=14tkX-XkLAXKWsgjVlIIMniIvuHRno90Q#.mov"],
+  "task-payment-fee":             "/api/drive-video?id=1gBfTatO8tl7-TOBaxRSar8hrLgRXBO5s#.mov",
+  "task-card-mapping":            "/api/drive-video?id=1OHH_dQqfH2AFC5cx5udqYvUWtftCQMoR#.mov",
+  "task-knowledge-base":          "/api/drive-video?id=1QtPf2ftaRaGCxRpJrOgrk4oI39v5JEH0#.mov",
+  "task-transfer-funds":          "/api/drive-video?id=1fdKBCckqxIw_0MXgxWbxoA3TxY8To8ZS#.mov",
+  "task-selective-notifications": "/api/drive-video?id=1JR4z_z-KF3bKSZ-61tz7FkkZdM70Fpd6#.mov",
 
   // ── Kayana Aid ──
 };

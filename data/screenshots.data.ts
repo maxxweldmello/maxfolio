@@ -25,7 +25,7 @@ export const taskScreenshots: Record<string, string[]> = {
   "task-card-mapping":            ["/tasks/card-mapping/screenshot-1.png","/tasks/card-mapping/screenshot-2.png","/tasks/card-mapping/screenshot-3.png", "/tasks/card-mapping/screenshot-4.png"],
   "task-knowledge-base":          ["/tasks/knowledge-base/screenshot-1.png","/tasks/knowledge-base/screenshot-2.png","/tasks/knowledge-base/screenshot-3.png"],
   "task-transfer-funds":          ["/tasks/transfer-funds/screenshot-1.png","/tasks/transfer-funds/screenshot-2.png","/tasks/transfer-funds/screenshot-3.png"],
-  "task-selective-notifications": ["/tasks/selective-notifications/screenshot-1.mp4","/tasks/selective-notifications/screenshot-2.png","/tasks/selective-notifications/screenshot-3.jpeg", "/tasks/selective-notifications/screenshot-4.png","/tasks/selective-notifications/screenshot-5.png"],
+  "task-selective-notifications": ["/api/drive-video?id=1mPumUtXGo2PZsmoATHmgjL67yTOY8B-g#.mp4","/tasks/selective-notifications/screenshot-2.png","/tasks/selective-notifications/screenshot-3.jpeg", "/tasks/selective-notifications/screenshot-4.png","/tasks/selective-notifications/screenshot-5.png"],
 
   // ── Kayana Aid ──
 };

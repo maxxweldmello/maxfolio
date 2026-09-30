@@ -14,6 +14,8 @@ import { driveFetch } from "@/lib/driveFetch";
  *
  * Usage: /api/drive-image?id=<Drive file id>
  */
+export const dynamic = "force-dynamic"; // always hit Drive fresh — never let Next.js cache this route
+
 export async function GET(req: NextRequest) {
   const id = req.nextUrl.searchParams.get("id");
   if (!id) {
@@ -37,7 +39,7 @@ export async function GET(req: NextRequest) {
       status: 200,
       headers: {
         "Content-Type": contentType,
-        "Cache-Control": "public, max-age=86400",
+        "Cache-Control": "no-store, must-revalidate",
       },
     });
   } catch {

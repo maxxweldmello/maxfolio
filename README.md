@@ -19,9 +19,3 @@ My personal portfolio — career history, project work, ongoing learning, and co
 - `/learning` — Long-form writing on production systems
 - `/contact` — Get in touch
 - `/resume` — Résumé, proxied live from Google Drive
-
-## Development
-
-```bash
-npm install
-npm run dev
